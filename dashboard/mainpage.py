@@ -42,6 +42,8 @@ try:
     forecast_all = state_holder["forecast"]
     category_forecast = state_holder["category_forecast_df"]
     errors = state_holder["errors"]
+    confidence_interval = state_holder["confidence_interval"]
+    confidence_pct = confidence_interval * 100
 
 except FileNotFoundError:
     st.error("Required files are not found. Please run the training notebook first.")
@@ -116,6 +118,7 @@ st.divider()
 
 # Scenario-Based Forecast Plot
 st.subheader("Scenario-Based Forecast")
+st.caption(f"Monthly sales forecast generated using Prophet with a {confidence_pct:.0f}% confidence interval. The shaded region represents forecast uncertainty.")
 
 fig = go.Figure()
 
