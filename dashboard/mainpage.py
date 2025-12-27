@@ -74,7 +74,7 @@ st.selectbox(
 if st.session_state.selected_category == "All Categories":
     forecast = forecast_all.copy()
     actuals = monthly_sales.rename(
-        columns={"Order Date": "ds", "Sales": "actual"}
+        columns = {"Order Date": "ds", "Sales": "actual"}
     )
 else:
     forecast = category_forecast[
@@ -106,13 +106,12 @@ forecast["yhat_upper_adj"] = forecast["yhat_upper"] * (1 + growth_adjustment)
 future_6m = forecast.tail(6)
 forecast_6m_total = future_6m["yhat_adj"].sum()
 best_model = errors["MAE"].idxmin()
-best_mae = errors.loc[best_model, "MAE"]
 
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Category", st.session_state.selected_category)
 c2.metric("Next 6 Months Forecast", f"{forecast_6m_total:,.0f}")
 c3.metric("Growth Assumption", f"{growth_adjustment*100:.0f}%")
-c4.metric("Model Used", f"{best_model} (MAE {best_mae:.2f})")
+c4.metric("Model Used", f"{best_model}")
 st.divider()
 
 # Scenario-Based Forecast Plot
