@@ -83,6 +83,7 @@ Once started, open the URL displayed in the terminal to access the application.
 # Acknowlegdement
 1. Kaggle for providing dataset
 2. Open-source Python community
+3. Facebook / Meta Prophet Team for Prophet forecasting library
 
 # Application Screenshots
 ## Sales forecast dashboard
