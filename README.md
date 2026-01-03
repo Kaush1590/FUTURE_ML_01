@@ -44,8 +44,8 @@ The forecasting models can be retrained by re-running the training notebook from
 **Follow the steps below to set up the project locally.**
 ## 1. Clone the repository
 ```bash
-git clone https://github.com/Kaush1590/FUTURE_ML_02.git
-cd FUTURE_ML_02
+git clone https://github.com/Kaush1590/FUTURE_ML_01.git
+cd FUTURE_ML_01
 ```
 ## 2. Create and activate a virtual environment
 ### Linux / macOS
