@@ -74,7 +74,7 @@ streamlit run dashboard.py
 ```
 Once started, open the URL displayed in the terminal to access the application.
 
-# Business Values and Imacts
+# Business Values and Impacts
 1. Provides accurate short- and medium-term sales forecasts, helping businesses optimize inventory levels and reduce stockouts or overstocking.
 2. Interactive dashboards and scenario-based forecasting enable stakeholders to evaluate growth strategies and respond proactively to market changes.
 3. Identifies seasonal trends, low-demand periods, and sales volatility, allowing better workforce, logistics, and procurement planning.
