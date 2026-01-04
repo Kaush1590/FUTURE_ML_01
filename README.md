@@ -51,12 +51,12 @@ cd FUTURE_ML_01
 ### Linux / macOS
 ```bash
 python -m venv <environment_name>
-source venv/bin/activate
+source <environment_name>/bin/activate
 ```
 ### Windows
 ```bash
 python -m venv <environment_name>
-venv\Scripts\activate
+<environment_name>\Scripts\activate
 ```
 ### Anaconda
 ```bash
