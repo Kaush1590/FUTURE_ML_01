@@ -80,7 +80,7 @@ Once started, open the URL displayed in the terminal to access the application.
 3. Identifies seasonal trends, low-demand periods, and sales volatility, allowing better workforce, logistics, and procurement planning.
 4. Category-level forecasting and retrainable models support business expansion, product strategy refinement, and continuous performance monitoring.
 
-# Acknowlegdement
+# Acknowledgement
 1. Kaggle for providing dataset
 2. Open-source Python community
 3. Facebook / Meta Prophet Team for Prophet forecasting library
