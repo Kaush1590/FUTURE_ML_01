@@ -9,7 +9,7 @@ This system provides a predictive analytics dashboard that enables businesses to
 The task is to provide an AI-Powered Sales Forecast Dashboard which provides:
 1. Sales trend line with actual vs. forecasted data
 2. Monthly & yearly comparisons
-3. Filters by category/store/region'
+3. Filters by category / store / region
 4. Highlight top-selling items & low seasons
 5. Insight cards for decision-making
 
